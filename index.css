@@ -1,0 +1,227 @@
+* {
+    font-weight: normal;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ropa Sans', sans-serif;
+    background: whitesmoke;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1326px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header h2 {
+    color: red;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.principal img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.produtos {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.box1 {
+    width: 100%;
+    height: auto;
+    background-color: #88888888;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+.box1 img {
+    position: relative;
+    width: 100%;
+}
+
+.box2 {
+    width: 100%;
+    height: 100%;
+    background-color: #88888888;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.box2 img {
+    position: relative;
+    width: 100%;
+}
+
+.text {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 30px;
+    color: #888888;
+    text-align: justify;
+    margin-right: 5em;
+    width: 50%;
+}
+
+.text2 {
+    font-size: 2em;
+    border-radius: 1em;
+    font-weight: 400;
+    margin: 30px;
+    color: white;
+    text-align: justify;
+    background-color: #51d275;
+    padding: 0px 30px;
+}
+
+div p {
+    color: #555555;
+    font-size: 1em;
+    margin: 30px;
+    text-align: justify;
+}
+
+.subtitulo {
+    argin-top: 9%;
+    color: black;
+    text-align: center;
+    font-size: 280%;
+    margin-bottom: 2%;
+}
+
+.industrial img {
+    width: 100%;
+}
+
+.industrial {
+    margin: auto;
+    width: 91%;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.industrial div{
+    font-size: 300%;
+    margin-right: 10%;
+    position: absolute;
+    top: 34%;
+    left: 42.4%;
+    color:black;
+}
+
+.indus {
+    filter: opacity(50%);
+}
+
+.moderno img {
+    width: 100%;
+}
+
+.moderno {
+    margin: auto;
+    width: 91%;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.moderno div{
+    font-size: 300%;
+    margin-right: 10%;
+    position: absolute;
+    top: 34%;
+    left: 42.4%;
+    color:black;
+}
+
+.moden {
+    filter: opacity(50%);
+}
+
+.classico img {
+    width: 100%;
+}
+
+.classico {
+    margin: auto;
+    width: 91%;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.classico div{
+    font-size: 300%;
+    margin-right: 10%;
+    position: absolute;
+    top: 34%;
+    left: 42.4%;
+    color:black;
+}
+
+.clas {
+    filter: opacity(50%);
+}
+
+.footer div {
+    background: black;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mapa {
+    margin-top: 11%;
+    margin-left: 11%;
+    margin-bottom: 11%;
+    width: 40vw;
+}
+
+.endereco {
+    margin-right: 15%;
+    margin-top: 9%;
+}
+
+.endereco p {
+    font-size: 100%;
+    margin-top: 7%;
+}
+
+.social {
+    font-size: 100%;
+}
